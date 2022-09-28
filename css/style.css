@@ -1,0 +1,200 @@
+body{
+   font-size:15px;
+   line-height: 1.5;
+   font-family: Arial, Helvetica, sans-serif;
+   margin:0;
+   padding:0;
+   background:#f4f4f4;
+}
+/* global */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+header ul{
+    margin:0;
+    padding:0;
+}
+.button_1{
+    color: white;
+    background:#e8491d;
+    padding-left: 20px;
+    padding-right:20px;
+    border:none;
+    height:38px;
+}
+.dark{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#ffffff;
+    background:#35424a;
+    padding:15px;
+}
+
+
+/* header */
+header{
+    color:#ffffff;
+    border-bottom:solid 3px #e8491d;
+    min-height: 70px;
+    padding-top: 30px;
+    background:#35424a
+}
+header a{
+    color:#ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px
+}
+header #branding {
+float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+header nav{
+    float:right;
+    margin-top: 10px;
+}
+header .highlight,header .current a {
+    color:#e8491d;
+    font-weight: bold;;
+}
+header a:hover{
+    color:#cccccc;
+    font-weight: bold;;  
+}
+/* showcase */
+
+#showcase{
+    min-height: 400px;
+background: url("../image/photo.jpg") no-repeat -300px -700px ;
+text-align: center;
+color:#ffffff;
+}
+#showcase h1{
+    margin:100px 0 10px 0;
+    font-size: 55px;
+}
+#showcase p{
+    font-size: 20px;
+}
+
+#newsletter{
+    color:#ffffff;
+    padding:15px;
+    background:#35424a;
+}
+#newsletter h1{
+float:left;
+}
+#newsletter form{
+    float:right;
+    margin-top: 15px;
+    }
+
+#newsletter input[type="email"]{
+    height:25px;
+    width:250px;
+    padding:4px;
+}
+
+/* boxes */
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float:left;
+    width:30%;
+    text-align: center;
+    padding:10px;
+}
+#img1{
+    width:150px;
+}
+#img2{
+    width:110px;
+}
+#img3{
+    width:250px;
+}
+/* footer */
+footer{
+    background: #e8491d;
+    margin-top: 30px;
+    text-align: center;
+    color:#cccccc;
+    padding:20px;
+
+}
+
+/* design f the about section  */
+aside#sidebar{
+    float:right;
+    width:30%;
+    margin-top:10px;
+}
+article#main-col{
+    float:left;
+    width:65%;
+}
+/* services */
+ul#services li{
+    list-style: none;
+    padding:29px;
+    border:solid 1px #cccccc;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+aside#sidebar .quote input,aside#sidebar .quote textarea{
+    width: 90%;
+}
+
+/* lets design the mobile and tablet version of our site  */
+@media(max-width:768px){
+
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter  li,
+    #newsletter form,
+    #boxes .box,aside#sidebar, article#main-col{
+        float:none;
+        width: 100%;
+        text-align: center;
+    }
+    header{
+        padding-bottom:30px
+    }
+    #showcase h1{
+        margin-top:40px;
+    }
+    #newsletter button,.quote button{
+        width: 100%;
+        display:block;
+    }
+    #newsletter form input[type="email"],.quote input ,.quote textarea
+    {
+        width: 100%;
+        margin-bottom: 5px;
+
+    }
+
+    
+
+
+
+}
+
+
+
+
+
